@@ -9,7 +9,9 @@
 
 **An intelligent machine learning system to predict the risk of heart disease using clinical parameters**
 
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Dataset](#-dataset) • [Model](#-model-performance)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20on%20Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://heart-disease-prediction-tarun.streamlit.app/)
+
+[Features](#-features) • [Live Demo](#-live-demo) • [Installation](#-installation) • [Usage](#-usage) • [Dataset](#-dataset) • [Model](#-model-performance)
 
 </div>
 
@@ -33,8 +35,18 @@ The system includes:
 - 📈 **Interactive UI** - User-friendly Streamlit interface
 - 🔬 **Robust Preprocessing** - Handles missing values and outliers
 - 📊 **Data Visualization** - Comprehensive EDA with beautiful plots
-- 🎯 **High Accuracy** - Trained on 918 patient records
+- 🎯 **High Accuracy** - Trained on 918 patient records (86.96% accuracy)
 - 💾 **Model Persistence** - Saved models for quick deployment
+
+---
+
+## 🚀 Live Demo
+
+### 🌐 Try it out now!
+
+**[Click here to access the live application →](https://heart-disease-prediction-tarun.streamlit.app/)**
+
+The application is deployed and running on Streamlit Cloud. You can test it immediately without any installation!
 
 ---
 
@@ -101,8 +113,8 @@ The dataset contains **918 patient records** with **12 features**:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/heart-disease-prediction.git
-cd heart-disease-prediction
+git clone https://github.com/genaitarun877/Heart-Disease-Prediction.git
+cd Heart-Disease-Prediction
 ```
 
 2. **Create a virtual environment** (Optional but recommended)
@@ -160,21 +172,22 @@ jupyter notebook
 
 ## 🎯 Model Performance
 
-Multiple machine learning algorithms were evaluated:
+Multiple machine learning algorithms were evaluated on the test set:
 
 | Model | Accuracy | F1 Score |
 |-------|----------|----------|
-| Logistic Regression | High | High |
-| K-Nearest Neighbors (KNN) | Moderate | Moderate |
-| Naive Bayes | Moderate | Moderate |
-| Decision Tree | Good | Good |
-| Support Vector Machine (SVM) | High | High |
+| **Logistic Regression** ⭐ | **86.96%** | **0.8857** |
+| K-Nearest Neighbors (KNN) | 86.41% | 0.8815 |
+| Naive Bayes | 85.33% | 0.8683 |
+| Decision Tree | 78.26% | 0.8058 |
+| Support Vector Machine (SVM) | 84.78% | 0.8679 |
 
 **Final Model:** Logistic Regression was selected for deployment due to its:
-- ✅ High accuracy and F1 score
+- ✅ **Highest accuracy (86.96%)** and excellent F1 score (0.8857)
 - ✅ Fast prediction time
-- ✅ Interpretability
+- ✅ High interpretability for medical decisions
 - ✅ Low computational requirements
+- ✅ Balanced performance across precision and recall
 
 ---
 
@@ -230,14 +243,17 @@ The notebook includes comprehensive EDA with:
 
 ## 🔮 Future Improvements
 
+- [x] ~~Deploy on Streamlit Cloud~~ ✅ **COMPLETED!**
 - [ ] Add more advanced models (XGBoost, Random Forest, Neural Networks)
 - [ ] Implement SHAP values for model explainability
 - [ ] Add prediction probability scores
 - [ ] Create a REST API using Flask/FastAPI
-- [ ] Deploy on cloud platforms (Heroku, AWS, Azure)
+- [ ] Deploy on additional cloud platforms (Heroku, AWS, Azure)
 - [ ] Add user authentication and history tracking
 - [ ] Implement cross-validation for more robust evaluation
 - [ ] Create a mobile-friendly responsive design
+- [ ] Add data visualization dashboard for patient history
+- [ ] Implement batch prediction for multiple patients
 
 ---
 
@@ -261,10 +277,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Author
 
-**Tarun**
+**Tarun Jaiswal**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- 🐙 GitHub: [@genaitarun877](https://github.com/genaitarun877)
+- 💼 LinkedIn: [Tarun Jaiswal](https://www.linkedin.com/in/tarun-jaiswal911)
+- 🌐 Live App: [Heart Disease Predictor](https://heart-disease-prediction-tarun.streamlit.app/)
 
 ---
 
@@ -272,16 +289,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 For any queries or suggestions, feel free to reach out:
 
-- 📧 Email: your.email@example.com
-- 💬 Issues: [GitHub Issues](https://github.com/yourusername/heart-disease-prediction/issues)
+- 📧 Email: [genai.tarun877@gmail.com](mailto:genai.tarun877@gmail.com)
+- 💬 Issues: [GitHub Issues](https://github.com/genaitarun877/Heart-Disease-Prediction/issues)
+- 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/tarun-jaiswal911)
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Dataset source: [Heart Disease Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
-- Sheeriyans Coding School for guidance and support
-- The amazing open-source community
+- 📊 Dataset source: [Heart Failure Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
+- 🎓 [Sheeriyans Coding School](https://sheryians.com/) for guidance and support in Machine Learning
+- 🌐 Streamlit Community for the amazing deployment platform
+- 💻 The open-source community for incredible tools and libraries
+- ❤️ All contributors and users who provide valuable feedback
 
 ---
 
@@ -289,7 +309,11 @@ For any queries or suggestions, feel free to reach out:
 
 ### ⭐ If you found this project helpful, please give it a star!
 
-**Made with ❤️ by Tarun**
+[![GitHub stars](https://img.shields.io/github/stars/genaitarun877/Heart-Disease-Prediction?style=social)](https://github.com/genaitarun877/Heart-Disease-Prediction/stargazers)
+
+**Made with ❤️ by Tarun Jaiswal**
+
+🔗 **Quick Links:** [Live App](https://heart-disease-prediction-tarun.streamlit.app/) | [GitHub](https://github.com/genaitarun877) | [LinkedIn](https://www.linkedin.com/in/tarun-jaiswal911)
 
 </div>
 
